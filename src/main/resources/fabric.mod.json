@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "spawnercleaner",
+  "version": "1.0.0",
+  "name": "Spawner Tooltip Cleaner",
+  "description": "Cleans spawner tooltips and displays only the mob type.",
+  "authors": ["Assistant"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/spawnercleaner/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.spawnercleaner.SpawnerTooltipCleaner"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
